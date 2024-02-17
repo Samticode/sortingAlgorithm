@@ -9,10 +9,10 @@ def bubble_sort(array):
                 array[index], array[index + 1] = array[index + 1], array[index]
 
 
-elements = [random.randint(1, 50) for _ in range(50)]
+array = [random.randint(1, 75) for _ in range(50)]
  
 print("Unsorted list is,")
-print(elements)
-bubblesort(elements)
+print(array)
+bubble_sort(array)
 print("Sorted Array is, ")
-print(elements)
+print(array)
